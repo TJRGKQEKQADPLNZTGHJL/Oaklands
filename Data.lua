@@ -1,29 +1,5 @@
 local data = {}
 
-
---[[
-local Preload = {
-	[1] = { -- plek
-		Position = CFrame.new(-3230, -584, 1179),
-		Callback = function()
-			return #workspace.World.TreeRegions.RiverCavePlek:GetChildren() > 0
-		end,
-	},
-	[2] = { -- birch & other
-		Position = CFrame.new(61, 54, 884),
-		Callback = function()
-			return #workspace.World.TreeRegions.BirchForest:GetChildren() > 0
-		end,
-	},
-	[3] = { -- palm & other
-		Position = CFrame.new(-3717, 123, 3661),
-		Callback = function()
-			return #workspace.World.TreeRegions.DesertLowlands:GetChildren() > 0
-		end,
-	},
-}
--]]
-
 data.PreloadRocks = {
 	["Beach"] = CFrame.new(1822.894409, -5.157772, -2855.478516),
 	["BeigeslateFarlands"] = CFrame.new(-532.150818, 106.999863, -2901.890137),
@@ -206,4 +182,3 @@ data.Ores = {
 }
 
 return data
-
